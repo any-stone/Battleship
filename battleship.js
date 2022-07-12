@@ -8,9 +8,9 @@ var guess;
 var hits = 0;
 var guesses = 0;
 
-//checking if the ship is sunk
 var isSunk = false;
 
+//checking the user's guess and whether the ship is sunk
 while (isSunk == false) {
     guess = prompt("Ready, aim, fire! Enter a number from 0-6:");
     if (guess < 0 || guess > 6) {
